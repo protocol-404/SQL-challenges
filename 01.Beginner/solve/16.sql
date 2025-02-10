@@ -1,4 +1,4 @@
 USE sql_practices;
 
-SELECT Country FROM Customers
+SELECT DISTINCT Country FROM Customers
 ORDER BY Country;
